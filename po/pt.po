@@ -206,7 +206,7 @@ msgstr "Ativar alisamento"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Hinting style: "
-msgstr "Estilo de alisamento\": "
+msgstr "Estilo de alisamento": "
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "<b>Hinting</b>"
