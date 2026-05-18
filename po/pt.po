@@ -2,14 +2,14 @@
 # Copyright (C) 2010 The LXAPPEARANCE Copyright Holder.
 # This file is distributed under the same license as the LXAPPEARANCE package.
 # Sérgio Marques <smarquespt@gmail.com>, 2010-2013.
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023, 2024.
-# Adaptado ao acordo ortográfico de 1990
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023, 2024, 2025, 2026.
+# Adaptado ao acordo ortográfico de 1990.
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-22 14:54+0200\n"
-"PO-Revision-Date: 2024-08-17 14:25+0100\n"
+"PO-Revision-Date: 2026-05-14 09:31+0100\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.9\n"
 "X-POOTLE-MTIME: 1427376697.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1
@@ -34,7 +34,7 @@ msgstr "janelas;preferências;definições;tema;estilo;aparência;"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2008-2025 LXDE Project"
-msgstr "Copyright (C) 2008-2025 Projeto LXDE"
+msgstr "Direitos de autor (C) 2008-2025 Projeto LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -54,7 +54,7 @@ msgstr "Personalizar aspeto e comportamento"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
-msgstr "Visualização de estilo do \"widget\" selecionado"
+msgstr "Pré-visualização de estilo do widget selecionado"
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "_File"
@@ -106,11 +106,13 @@ msgstr "Widget"
 
 #: ../data/ui/lxappearance.glade.h:15 ../src/color-scheme.c:312
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "O esquema de cores não é suportado pelo tema atual."
+msgstr ""
+"O esquema de cores não é compatível com o tema do widget atualmente "
+"selecionado."
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Use customized color scheme"
-msgstr "Utilizar esquema personalizado"
+msgstr "Utilizar um esquema de cores personalizado"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Normal windows:"
@@ -150,7 +152,7 @@ msgstr "Remover"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Preview of the selected icon theme"
-msgstr "Antevisão do tema de ícones selecionado"
+msgstr "Pré-visualização do tema de ícones selecionado"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Icon Theme"
@@ -158,7 +160,7 @@ msgstr "Tema de ícones"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Preview of the selected cursor theme"
-msgstr "Antevisão do tema de cursor selecionado"
+msgstr "Pré-visualização do tema de cursor selecionado"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Size of cursors"
@@ -200,23 +202,23 @@ msgstr "<b>Suavização</b>"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Enable hinting"
-msgstr "Ativar \"hinting\""
+msgstr "Ativar alisamento"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Hinting style: "
-msgstr "Estilo de \"hinting\": "
+msgstr "Estilo de alisamento: "
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "<b>Hinting</b>"
-msgstr "<b>Hinting</b>"
+msgstr "<b>Alisamento</b>"
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "Sub-pixel geometry: "
-msgstr "Geometria de subpixel: "
+msgstr "Geometria de sub-pixel: "
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "<b>Sub-pixel geometry</b>"
-msgstr "<b>Geometria de subpixel</b>"
+msgstr "<b>Geometria de sub-pixel</b>"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Font"
@@ -264,7 +266,7 @@ msgstr "<b>Efeitos sonoros</b>"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "Enable _accessibility in GTK+ applications"
-msgstr "_Ativar acessibilidade nas aplicações GTK+"
+msgstr "Ativar _acessibilidade nas aplicações GTK+"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "<b>Accessibility</b>"
@@ -298,15 +300,15 @@ msgstr "VBGR"
 #: ../data/ui/lxappearance.glade.h:61
 msgctxt "Hinting style"
 msgid "None"
-msgstr "Nenhuma"
+msgstr "Nenhum"
 
 #: ../data/ui/lxappearance.glade.h:62
 msgid "Slight"
-msgstr "Ligeira"
+msgstr "Ligeiro"
 
 #: ../data/ui/lxappearance.glade.h:63
 msgid "Medium"
-msgstr "Média"
+msgstr "Médio"
 
 #: ../data/ui/lxappearance.glade.h:64
 msgid "Full"
@@ -314,7 +316,7 @@ msgstr "Total"
 
 #: ../data/ui/lxappearance.glade.h:65
 msgid "Same as menu items"
-msgstr "Igual aos itens de menu"
+msgstr "Igual aos itens do menu"
 
 #: ../data/ui/lxappearance.glade.h:66
 msgid "Small toolbar icon"
@@ -346,7 +348,7 @@ msgstr "Apenas texto"
 
 #: ../data/ui/lxappearance.glade.h:73
 msgid "Text below icons"
-msgstr "Texto por baixo dos ícones"
+msgstr "Texto abaixo dos ícones"
 
 #: ../data/ui/lxappearance.glade.h:74
 msgid "Text beside icons"
@@ -364,8 +366,8 @@ msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (Tema de ícones)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
-"Não pode definir o esquema de cores se não utilizar lxsession como gestor de "
-"sessões."
+"Não pode definir o esquema de cores se não utilizar o lxsession como gestor "
+"de sessões."
 
 #~ msgid "Copyright (C) 2011 LXDE Project"
 #~ msgstr "Direitos de autor (C) 2011-2014 Projeto LXDE"
